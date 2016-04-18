@@ -60,5 +60,13 @@ h1 {
     margin: 0 45px 45px 45px;
 }
 
+.button {
+    background-color: #F487A9;
+    padding: 16px;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+}
 .navigation-link-pink { background-color: #F487A9; }
 .navigation-link-pink:hover { background-color: #EF5787; }

@@ -5,6 +5,7 @@ background-size: 800% 800%;
 -webkit-animation: AnimationName 5s ease infinite;
 -moz-animation: AnimationName 5s ease infinite;
 animation: AnimationName 5s ease infinite;
+margin: 0;
 }
 
 .top {
@@ -12,10 +13,11 @@ animation: AnimationName 5s ease infinite;
 }
 h1 {
 	font-family: 'Playfair Display', serif;
-	font-size: 60px;
+	font-size: 80px;
 	font-weight: 900;
 	color: white;
-	margin-top: 100px;
+    margin: 0;
+    padding: 0 30px;
 }
 
 @-webkit-keyframes AnimationName {
@@ -34,3 +36,29 @@ h1 {
     100%{background-position:0% 50%}
 }
 
+.location {
+    background-image: url('https://a2.muscache.com/im/pictures/38990781-14ac-4408-a556-31c0b5f42e67.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.about p {
+    padding: 0 45px 45px 45px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.more {
+    background: white;
+    padding: 0 45px 45px 45px;
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    display: inline-block;
+    border-radius: 30px;
+    margin: 0 45px 45px 45px;
+}
+
+.navigation-link-pink { background-color: #F487A9; }
+.navigation-link-pink:hover { background-color: #EF5787; }

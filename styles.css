@@ -67,3 +67,17 @@ h1 {
 }
 .navigation-link-pink { background-color: #F487A9; }
 .navigation-link-pink:hover { background-color: #EF5787; }
+
+
+/* Responsive - - - - - - - - - - */
+@media screen and (max-width: 720px) {
+    .more {
+        font-size: 20px;
+        padding: 0 15px 15px 15px;
+    }
+
+    .about p {
+        font-size: 20px;
+        padding: 0 15px 15px 15px;
+    }
+}
